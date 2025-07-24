@@ -2,8 +2,8 @@ let activeTabId = null;
 let activeDomain = null;
 let startTime = null;
 let currentDate = new Date().toLocaleDateString();
-const whitelist = []; // Add domains to track only these, or leave empty to track all
-const blacklist = ["youtube.com", "facebook.com"]; // Add domains to ignore
+const whitelist = []; 
+const blacklist = ["youtube.com", "facebook.com"]; 
 
 function getDomain(url) {
   try {

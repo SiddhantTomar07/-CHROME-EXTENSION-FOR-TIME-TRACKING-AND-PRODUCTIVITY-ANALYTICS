@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 10px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .site { margin-bottom: 5px; }
+    .bar { height: 10px; background: #4CAF50; margin-top: 2px; }
+    .dark-mode { background: #121212; color: white; }
+    .button-row { margin-top: 10px; }
+    button { padding: 4px 10px; margin-right: 6px; }
+  </style>
+</head>
+<body>
+  <h3>Time Spent</h3>
+  <div id="analytics"></div>
+  <div class="button-row">
+    <button id="reset">Reset</button>
+    <button id="toggle-theme">Dark Mode</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
